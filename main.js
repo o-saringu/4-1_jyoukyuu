@@ -5,16 +5,16 @@ function buttonClick(){
 	four.value = three.value.replace(/\s+/g, "");
 	five.value = three.value.replace(/\s+/g, "");
 	
-	if (one.value == "intw=width/2"){
+	if (one.value == "intw=width/2;"){
 		text1.innerHTML = "正解";
 	}else{
-		text1.innerHTML = "不正解　解答：int w=width/2";
+		text1.innerHTML = "不正解　解答：int w=width/2;";
 	}
 
-	if (two.value == "inth=height/2"){
+	if (two.value == "inth=height/2;"){
 		text2.innerHTML = "正解";
 	}else{
-		text2.innerHTML = "不正解　解答：int h=height/2";
+		text2.innerHTML = "不正解　解答：int h=height/2;";
 	}
 
 	if (three.value == "ellipse(3*x,y,w,h);"){
