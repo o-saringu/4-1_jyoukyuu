@@ -2,8 +2,8 @@ function buttonClick(){
 	one.value = one.value.replace(/\s+/g, "");
 	two.value = two.value.replace(/\s+/g, "");
 	three.value = three.value.replace(/\s+/g, "");
-	four.value = three.value.replace(/\s+/g, "");
-	five.value = three.value.replace(/\s+/g, "");
+	four.value = four.value.replace(/\s+/g, "");
+	five.value = five.value.replace(/\s+/g, "");
 	
 	if (one.value == "intw=width/2;"){
 		text1.innerHTML = "正解";
